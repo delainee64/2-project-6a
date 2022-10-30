@@ -5,6 +5,7 @@
 # should return the statistical median of those numbers, which will require it to sort the list.
 
 def find_median(numbers):
+    """ Finds the median number in any list of numbers."""
     numbers.sort()
     if len(numbers) % 2 == 1:
         return numbers[len(numbers) // 2]
